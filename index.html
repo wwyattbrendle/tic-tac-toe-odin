@@ -12,52 +12,50 @@
     <div class="container">
         <div class="sidebar-left">
             <h1>Player 1</h1>
-            <div class="img-container bard">
-                <img src="./assets/bard.png" alt="">
-            </div>
+            <div class="img-container" id="p1-pic"></div>
             <div class="character-container">
                 <div class="character-icon">
-                    <button class="icon bard">
-                        <img src="./assets/bard.png" alt="">
+                    <button class="icon bard" id="p1-bard">
+                        <img src="./assets/rbard.png" alt="">
                     </button>
                 </div>
                 <div class="character-icon">                    
-                    <button class="icon dogkin">
-                        <img src="./assets/dogkinhunter.png" alt="">
+                    <button class="icon dogkin" id="p1-dogkin">
+                        <img src="./assets/rdogkinhunter.png" alt="">
                     </button></div>
                 <div class="character-icon">
-                    <button class="icon frogling">
-                        <img src="./assets/frogling.png" alt="">
+                    <button class="icon frogling" id="p1-frogling">
+                        <img src="./assets/rfrogling.png" alt="">
                     </button>
                 </div>
                 <div class="character-icon">
-                    <button class="icon gunner">
-                        <img src="./assets/gunner.png" alt="">
+                    <button class="icon gunner" id="p1-gunner">
+                        <img src="./assets/rgunner.png" alt="">
                     </button>
                 </div>
                 <div class="character-icon">
-                    <button class="icon lich">
-                        <img src="./assets/lich.png" alt="">
+                    <button class="icon lich" id="p1-lich">
+                        <img src="./assets/rlich.png" alt="">
                     </button>
                 </div>
                 <div class="character-icon">
-                    <button class="icon minotaur">
-                        <img src="./assets/minotaur.png" alt="">
+                    <button class="icon minotaur" id="p1-minotaur">
+                        <img src="./assets/rminotaur.png" alt="">
                     </button>
                 </div>
                 <div class="character-icon">
-                    <button class="icon monk">
-                        <img src="./assets/monk.png" alt="">
+                    <button class="icon monk" id="p1-monk">
+                        <img src="./assets/rmonk.png" alt="">
                     </button>
                 </div>
                 <div class="character-icon">
-                    <button class="icon wizard">
-                        <img src="./assets/wizard.png" alt="">
+                    <button class="icon wizard" id="p1-wizard">
+                        <img src="./assets/rwizard.png" alt="">
                     </button>
                 </div>
             </div>
             <div class="score-container">
-                <h2 class="score">score</h2>
+                <h2 class="score" id="p1-score">0</h2>
             </div>
         </div>
         <div class="header">
@@ -71,81 +69,71 @@
         </div>
         <div class="sidebar-right">            
             <h1>Player 2</h1>
-            <div class="img-container wizard">
-                <img src="./assets/wizard.png" alt="">
-            </div>
+            <div class="img-container" id="p2-pic"></div>
             <div class="character-container">
                 <div class="character-icon">
-                    <button class="icon bard">
-                        <img src="./assets/bard.png" alt="">
+                    <button class="icon bard" id="p2-bard">
+                        <img src="./assets/lbard.png" alt="">
                     </button>
                 </div>
                 <div class="character-icon">                    
-                    <button class="icon dogkin">
-                        <img src="./assets/dogkinhunter.png" alt="">
+                    <button class="icon dogkin" id="p2-dogkin">
+                        <img src="./assets/ldogkinhunter.png" alt="">
                     </button></div>
                 <div class="character-icon">
-                    <button class="icon frogling">
-                        <img src="./assets/frogling.png" alt="">
+                    <button class="icon frogling" id="p2-frogling">
+                        <img src="./assets/lfrogling.png" alt="">
                     </button>
                 </div>
                 <div class="character-icon">
-                    <button class="icon gunner">
-                        <img src="./assets/gunner.png" alt="">
+                    <button class="icon gunner" id="p2-gunner">
+                        <img src="./assets/lgunner.png" alt="">
                     </button>
                 </div>
                 <div class="character-icon">
-                    <button class="icon lich">
-                        <img src="./assets/lich.png" alt="">
+                    <button class="icon lich" id="p2-lich">
+                        <img src="./assets/llich.png" alt="">
                     </button>
                 </div>
                 <div class="character-icon">
-                    <button class="icon minotaur">
-                        <img src="./assets/minotaur.png" alt="">
+                    <button class="icon minotaur" id="p2-minotaur">
+                        <img src="./assets/lminotaur.png" alt="">
                     </button>
                 </div>
                 <div class="character-icon">
-                    <button class="icon monk">
-                        <img src="./assets/monk.png" alt="">
+                    <button class="icon monk" id="p2-monk">
+                        <img src="./assets/lmonk.png" alt="">
                     </button>
                 </div>
                 <div class="character-icon">
-                    <button class="icon wizard">
-                        <img src="./assets/wizard.png" alt="">
+                    <button class="icon wizard" id="p2-wizard">
+                        <img src="./assets/lwizard.png" alt="">
                     </button>
                 </div>
             </div>
             <div class="score-container">
-                <h2 class="score">score</h2>
+                <h2 class="score" id="p2-score">0</h2>
             </div>
         </div>
         <div class="content">
             <div class="gameboard-container">
-                <div id="tl" class="player-1 lich">
-                    <img src="./assets/lich.png" alt="hero">
-                </div>
-                <div id="tm" class="player-2 monk">
-                    <img src="./assets/monk.png" alt="">
-                </div>
-                <div id="tr" class="player-1 lich">
-                    <img src="./assets/lich.png" alt="">
-                </div>
-                <div id="ml" class="player-2 monk">
-                    <img src="./assets/monk.png" alt="">
-                </div>
-                <div id="mm" class="player-2 monk">
-                    <img src="./assets/monk.png" alt="">
-                </div>
+                <div id="tl" class="unit"></div>
+                <div class="spacer" id="v1"></div>
+                <div id="tm" class="unit"></div>
+                <div class="spacer" id="v2"></div>
+                <div id="tr" class="unit"></div>
+                <div class="spacer" id="h1"></div>
+                <div id="ml" class="unit"></div>
+                <div id="mm" class="unit"></div>
                 <div id="mr" class="unit"></div>
+                <div class="spacer" id="h2"></div>
                 <div id="bl" class="unit"></div>
                 <div id="bm" class="unit"></div>
-                <div id="br" class="player-1 lich">
-                    <img src="./assets/lich.png" alt="">
-                </div>
+                <div id="br" class="unit"></div>
             </div>
             <div class="buttons-container">
-                <button>Play Again</button>
-                <button>Reset</button>
+                <button id="play-button">Play</button>
+                <button id="reset-button">Reset</button>
             </div>
         </div>
     </div>
